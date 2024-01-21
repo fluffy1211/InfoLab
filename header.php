@@ -15,8 +15,8 @@
 
 <header>
     <img class="logo" src="Images\logoinfo.png"> 
-    <button class="login" href="#">Login</button>
-    <button class="login" href="#">Sign Up</button>
+    <!-- <button class="login" href="#">Login</button>
+    <button class="login" href="#">Sign Up</button> -->
 
         <nav>
                     <a href="homepage.php">Accueil</a>
