@@ -12,7 +12,7 @@ include_once 'header.php';
       <li>PC Gamer</li>
       <li>PC portables Gamer</li>
       <li>PC portables</li>
-      <li>Configuration ordinateur</li>
+      <li>PC Bureautique</li>
     </ul>
   </div>
 
@@ -35,8 +35,8 @@ include_once 'header.php';
       <li>Souris Gamer</li>
       <li>Clavier Gamer</li>
       <li>Casque Gamer</li>
-      <li>Streaming</li>
-      <li>Config jeux</li>
+      <li>Micro</li>
+      <li>Chaise Gaming</li>
     </ul>
   </div>
 
@@ -45,9 +45,9 @@ include_once 'header.php';
     <h2>Périphériques</h2>
     <ul>
       <li>Écran</li>
-      <li>Périphériques Gamer</li>
+      <li>Souris</li>
       <li>Stockage externe</li>
-      <li>Bureautique</li>
+      <li>Clavier</li>
       <li>Webcam</li>
     </ul>
   </div>

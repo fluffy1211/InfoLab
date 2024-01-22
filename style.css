@@ -171,6 +171,7 @@ h2 {
     margin: 0;
     padding: 10px;
     font-size: 1.2em;
+    color: white;
   }
   
   .categorie ul {
@@ -199,3 +200,55 @@ h2 {
     
     
   }
+
+
+ /* PAGE GAMING */
+
+  .produit-container #mouse {
+    width: 20%;
+  }
+
+  .produit-container #keyboard {
+    width: 21.9%;
+    margin-bottom: 3rem;
+  }
+
+  .produit-container #headset {
+    width: 23%;
+    margin-bottom: 7rem;
+
+  }
+
+  .produit-container #micro {
+    width: 20%;
+  }
+
+  .produit-container #chair {
+    width: 45%;
+  }
+
+  /* PAGE ORDINATEURS */
+
+  .produit-container #pcsurmesure {
+    width: 30%;
+    margin-bottom: 3.4rem;
+  }
+
+  .produit-container #pcgamer {
+    width: 30%;
+  }
+
+  .produit-container #pcportablegamer {
+    width: 25%;
+
+  }
+
+  .produit-container #pcportable {
+    width: 33%;
+    margin-bottom: 0.5rem;
+  }
+
+  .produit-container #pcbureautique {
+    width: 45%;
+  }
+

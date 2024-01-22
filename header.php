@@ -14,16 +14,16 @@
 <body>
 
 <header>
-    <img class="logo" src="Images\logoinfo.png"> 
+    <a href="homepage.php"><img class="logo" src="Images\logoinfo.png"></a> 
     <!-- <button class="login" href="#">Login</button>
     <button class="login" href="#">Sign Up</button> -->
 
         <nav>
                     <a href="homepage.php">Accueil</a>
-                    <a href="composants.php">Composants</a>
                     <a href="ordinateurs.php">Ordinateurs</a>
+                    <a href="composants.php">Composants</a>
+                    <a href="gaming.php">Gaming</a>
                     <a href="Périphériques.php">Périphériques</a>
-                    <a href="Gaming.php">Gaming</a>
         </nav>
 </header>
 </html>
