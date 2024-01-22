@@ -66,15 +66,13 @@ section {
     padding: 20px;
 }
 
-footer {  
+footer {
+    bottom: 0;
     background-color: #333;
     color: #fff;
     text-align: center;
-    bottom: 0;
-    width: 100%;
     height: 20px;
     padding-top: 20px;
-    position: fixed;
 }
 
 
@@ -137,3 +135,67 @@ h2 {
     height: 5%;
     
 }
+#RAM{
+    margin-bottom:1rem;
+}
+#CarteGraphique{
+    margin-bottom:1.2rem;
+}
+/*Pour la homepage:*/
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .categorie {
+    flex-basis: 22%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .categorie img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  .categorie h2 {
+    background-color:#7b00ff;
+    border-radius:5px;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .categorie ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .categorie ul li {
+    padding: 10px;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  
+  
+  
+  #ComposantMenu{
+    margin-top:5rem;
+    margin-bottom: 5.5rem;
+
+  }
+
+  #Gaming{
+    height: 45%;
+    margin-left: 3rem;
+    
+    
+  }

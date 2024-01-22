@@ -3,22 +3,54 @@
 include_once 'header.php';
 
 ?>
-<div class="img-home">
-    <div class="pchome"> 
-        <a href="ordinateurs.php"><img  src="Images\pc-gamer.png" alt=""></a>
-        <h2><a href="ordinateurs.php">Nos Ordinateurs !</a></h2>
-    </div>
+<div class="container">
+  <div class="categorie">
+    <img src="Images/pc-gamer.png" id="Ordinateur">
+    <h2>Ordinateurs</h2>
+    <ul>
+      <li>PC sur mesure</li>
+      <li>PC Gamer</li>
+      <li>PC portables Gamer</li>
+      <li>PC portables</li>
+      <li>Configuration ordinateur</li>
+    </ul>
+  </div>
 
+  <div class="categorie">
+    <img src="Images/RAM.png" id="ComposantMenu">
+    <h2>Composants</h2>
+    <ul>
+      <li>Cartes Graphiques</li>
+      <li>Processeurs</li>
+      <li>RAM</li>
+      <li>Carte mère</li>
+      <li>SSD</li>
+    </ul>
+  </div>
 
+  <div class="categorie">
+    <img src="Images/casque.jpg" id="Gaming">
+    <h2>Gaming</h2>
+    <ul>
+      <li>Souris Gamer</li>
+      <li>Clavier Gamer</li>
+      <li>Casque Gamer</li>
+      <li>Streaming</li>
+      <li>Config jeux</li>
+    </ul>
+  </div>
 
-    <div class="gpuhome"> 
-        <a href="composants.php"><img  src="Images\gpu-homepage.png" alt=""></a>
-        <h2><a href="composants.php">Nos Composants !</a></h2>
-    </div>
+  <div class="categorie">
+    <img src="Images/écran.jpg" id="Périphérique">
+    <h2>Périphériques</h2>
+    <ul>
+      <li>Écran</li>
+      <li>Périphériques Gamer</li>
+      <li>Stockage externe</li>
+      <li>Bureautique</li>
+      <li>Webcam</li>
+    </ul>
+  </div>
 </div>
-<footer>
-    © 2024 InfoLAB
-</footer>
 
-</body>
 </html>

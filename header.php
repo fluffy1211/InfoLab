@@ -22,5 +22,8 @@
                     <a href="homepage.php">Accueil</a>
                     <a href="composants.php">Composants</a>
                     <a href="ordinateurs.php">Ordinateurs</a>
+                    <a href="Périphériques.php">Périphériques</a>
+                    <a href="Gaming.php">Gaming</a>
         </nav>
 </header>
+</html>
