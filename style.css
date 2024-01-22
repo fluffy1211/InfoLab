@@ -183,10 +183,6 @@ h2 {
     padding: 10px;
     border-top: 1px solid #eaeaea;
   }
-  
-  
-  
-  
   #ComposantMenu{
     margin-top:5rem;
     margin-bottom: 5.5rem;
@@ -196,6 +192,29 @@ h2 {
   #Gaming{
     height: 45%;
     margin-left: 3rem;
+  }
+
+  /*PERIPHERIQUES*/
+  .produit-container #ecran1{
+    width: 30%;
+    margin-bottom:1.3rem;
+  }
+  .produit-container #ecran2{
+    width: 30%;
+  }
+  .produit-container #clavier{
+    width: 30%;
+    margin-bottom:7.3rem;
+  }
+  .produit-container #hdd{
+    width: 40%;
+  }
+  .produit-container #souris{
+    width: 20%;
     
+  }
+  .produit-container #webcam{
+    width: 20%;
+    margin-bottom:6rem;
     
   }
