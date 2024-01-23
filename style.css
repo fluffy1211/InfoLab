@@ -1,5 +1,10 @@
 /* Police Goldman (couleur du logo : #7b00ff) */
 
+/* @font-face {
+    font-family: "Goldman";
+    src: url("fonts/Goldman-Regular.ttf");
+} */
+
 body {
     font-family: "Goldman", sans-serif;
     margin: 0;
@@ -12,7 +17,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 0.9rem;
-    padding-bottom: 0.1rem;
+    padding-bottom: 0.9rem;
     width: 11rem;
     height: 7rem;
     
@@ -34,35 +39,90 @@ nav {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     background-color: #7b00ff;
-    padding: 10px;
+    padding: 25px;
     margin-right: 5px;
     margin-left: 5px;
+    height: 20px;
+    text-align: center;
+    padding-top: 20px;
 }
 
-nav select, nav button {
+header a {
+    font-family: "Goldman", sans-serif;
+    text-decoration: none!important;
+    color: #fff;
+    font-size: 22px;
+    padding: 20px;
+    }
+
+/* nav select, nav button {
     border-radius: 4px;
     font-size: 16px;
     margin: 5px;
     padding: 8px;
-}
+} */
 
 section {
     padding: 20px;
 }
 
-footer {  
+footer {
+    bottom: 0;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 0.5rem;;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    height: 20px;
+    padding-top: 20px;
 }
 
-header {
-    position: sticky;
+
+
+.pchome {
+    float: left;
 }
+
+.img-home img {
+    display:inline-block;
+    width: 40rem;
+    margin-left:160px;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.gpuhome h2 {
+    padding-right: 50px;
+    
+}
+
+.gpuhome a {
+    font-family: 'Goldman', sans-serif;
+    text-decoration: none;
+    color: #7b00ff;
+    letter-spacing: 2px;
+}
+
+.gpuhome img {
+    width: 49.7rem;
+}
+
+.pchome h2 {
+    padding-left: 180px;
+}
+
+.pchome a {
+    font-family: 'Goldman', sans-serif;
+    text-decoration: none;
+    color: #7b00ff;
+    letter-spacing: 2px;
+}
+
 .produit {
     background-color: #f4f4f4;
     border: 2px solid #ddd;
@@ -73,4 +133,122 @@ header {
     margin-right: 1%;
     text-align: center;
     height: 5%;
+    
 }
+#RAM{
+    margin-bottom:1rem;
+}
+#CarteGraphique{
+    margin-bottom:1.2rem;
+}
+/*Pour la homepage:*/
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .categorie {
+    flex-basis: 22%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .categorie img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  .categorie h2 {
+    background-color:#7b00ff;
+    border-radius:5px;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  .categorie ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .categorie ul li {
+    padding: 10px;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  
+  
+  
+  #ComposantMenu{
+    margin-top:5rem;
+    margin-bottom: 5.5rem;
+
+  }
+
+  #Gaming{
+    height: 45%;
+    margin-left: 3rem;
+    
+    
+  }
+
+
+ /* PAGE GAMING */
+
+  .produit-container #mouse {
+    width: 20%;
+  }
+
+  .produit-container #keyboard {
+    width: 21.9%;
+    margin-bottom: 3rem;
+  }
+
+  .produit-container #headset {
+    width: 23%;
+    margin-bottom: 7rem;
+
+  }
+
+  .produit-container #micro {
+    width: 20%;
+  }
+
+  .produit-container #chair {
+    width: 45%;
+  }
+
+  /* PAGE ORDINATEURS */
+
+  .produit-container #pcsurmesure {
+    width: 30%;
+    margin-bottom: 3.4rem;
+  }
+
+  .produit-container #pcgamer {
+    width: 30%;
+  }
+
+  .produit-container #pcportablegamer {
+    width: 25%;
+
+  }
+
+  .produit-container #pcportable {
+    width: 33%;
+    margin-bottom: 0.5rem;
+  }
+
+  .produit-container #pcbureautique {
+    width: 45%;
+  }
+
