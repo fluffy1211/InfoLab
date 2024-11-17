@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Projet réalisé lors de l'atelier AP1 au sein de l'école IPSSI.
+Lors de notre première année de BTS SIO nous avons dû dans le but de l’AP1 (Atelier Pédagogique 1)
+créer une entreprise fictive ainsi qu’un site vitrine, tout cela accompagné de documents tels des 
+factures ou devis ainsi que le KBIS de l’entreprise.
 
 ## Description
 
