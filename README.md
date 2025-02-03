@@ -27,4 +27,4 @@ Le déploiement du site est configuré via GitHub Actions dans le fichier [jekyl
 
 ## Présentation du projet
 
-https://fluffy1211.github.io/PortfolioGabriel/assets/infolab_powerpoint.pdf?
+https://fluffy1211.github.io/PortfolioGabriel/assets/infolab_powerpoint.pdf
