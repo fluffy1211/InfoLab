@@ -24,3 +24,7 @@ Les styles sont définis dans le fichier [style.css](style.css).
 ## Déploiement
 
 Le déploiement du site est configuré via GitHub Actions dans le fichier [jekyll-gh-pages.yml](.github/workflows/jekyll-gh-pages.yml).
+
+## Présentation du projet
+
+https://fluffy1211.github.io/PortfolioGabriel/assets/infolab_powerpoint.pdf?
